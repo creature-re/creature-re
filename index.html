@@ -1,0 +1,56 @@
+<!--это начало, типо говорю - привет, я буду работать в HTML5-->
+<!DOCTYPE html>
+<!--язык страницы-->
+<html lang="en">
+<!--это не отображается на странице, код и верхнее название страницы-->
+<head>
+	<meta charset="UTF-8">
+	<title> My first page </title>
+	<!-- сюда помещается также значок сайта (favicon) - image/icon/logo
+	<link rel="icon" type="image/png" href="picture-1.jpg"> -->
+	<link rel="icon" type="image/png" href="picture-1.jpg">
+	<!--Link to Font Awesome CDN - Content Delivery Network -->
+	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases /v5.3.1/css/all.css" integrity="sha384-mzrmE5qon1jUremFsqc01SB46JvROS7bZs3I02EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> - что-то тут неверно-->
+</head>
+
+<body>
+	<!--Font Awesome icons - не получается
+	<i class="far fa-angry"></i>
+	<i class="far fa-angry fa-xs"></i>
+	<i class="far fa-angry fa-md"></i>
+	<i class="far fa-angry fa-lg"></i>
+	<i class="far fa-angry fa-2x"></i>
+	<i class="far fa-angry fa-3x"></i>
+	<i class="far fa-angry fa-5x"></i>
+	<i class="far fa-angry fa-10x"></i>-->
+
+	<main><p> This is my main code! </p></main>
+	<footer><p> Think of a most interesting footer </footer>
+<!-- Разные вставки картинки - 1ое - размер по умолчанию-->
+		<figure>
+			<img src = "picture-1.jpg"
+			 alt = "My pet">
+			<figcaption> Default image size</figcaption>
+		</figure>
+<!-- Я установила параметры в одной переменной-->
+		<figure>
+			<img src = "picture-1.jpg"
+			width = "500px" alt = "My pet">
+			<figcaption> Set image size</figcaption>
+		</figure>
+<!-- Я установыла параметры в обеих переменных-->
+		<figure>
+			<img src = "picture-1.jpg"
+			width = "500px" height="100px" 
+			alt = "My pet">
+			<figcaption> Skewed image size</figcaption>
+		</figure>
+<!-- Тут я использую процентаж-->
+		<figure>
+			<img src = "picture-1.jpg"
+			width = "50%" alt = "My pet">
+			<figcaption> Relative image size</figcaption>
+		</figure>
+
+</body>
+	</html> 
